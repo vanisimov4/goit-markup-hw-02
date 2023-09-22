@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "sans-serif";
   color: #2e2f42;
   background-color: #fff;
 }
@@ -42,11 +42,14 @@ a {
 }
 
 .header-menu-link {
-  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover, .header-menu-link:focus {
+color: #404BBF;
 }
 
 .header-address {
@@ -61,10 +64,13 @@ a {
 .header-address-menu-link {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+
+.header-address-menu-link:hover, .header-address-menu-link:focus {
+color: #404BBF;
 }
 /* ======================================*/
 /* ================HERO======================*/
@@ -85,12 +91,17 @@ a {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--WHITE, #fff);
+  color: #fff;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+  background: #404BBF;
 }
 /* ======================================*/
 /* ================FEATURES======================*/
@@ -107,7 +118,6 @@ a {
 }
 
 .features-subtitle {
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -117,7 +127,6 @@ a {
 .features-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -128,7 +137,6 @@ a {
 }
 
 .team-title {
-  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -152,7 +160,6 @@ a {
 }
 
 .team-subtitle {
-    color: #2E2F42;
         text-align: center;
         /* Header 3 */
         font-size: 20px;
@@ -162,6 +169,67 @@ a {
 }
 
 .team-text {
+  color: #434455;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* ======================================*/
-/* ================TEAM======================*/
+/* ================PORTFOLIO======================*/
+.portfoio {}
+
+.portfoio-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfoio-list {}
+
+.portfoio-item {}
+
+.portfoio-img {}
+
+.portfoio-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+}
+
+.portfoio-text {
+  color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ======================================*/
+/* ================FOOTER======================*/
+.footer {
+  background: #2E2F42;
+}
+
+.footer-logo {}
+
+.logo {}
+
+.footer-logo-white {
+  color: #F4F4FD;
+    font-family: "Raleway", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+      letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+  color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
